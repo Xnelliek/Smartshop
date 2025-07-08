@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // Required to use tsBuildInfoFile
+    "incremental": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+
+    // Use only supported values
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    // Linting & safety
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    
+    // Optional: may not be recognized depending on TS version or plugins
+    // You can remove if it causes further issues
+    // "erasableSyntaxOnly": true,
+    // "noUncheckedSideEffectImports": true,
+
+    // Extra safety for cross-OS compatibility
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["vite.config.ts"]
+}

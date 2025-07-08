@@ -1,0 +1,48 @@
+# Core
+Django==5.0.6
+djangorestframework==3.16.0
+djangorestframework-simplejwt==5.3.1
+asgiref==3.8.1
+sqlparse==0.5.3
+
+# Database
+psycopg2-binary==2.9.10  # For PostgreSQL
+
+# Authentication
+python-decouple==3.8  # For environment variables
+
+# API Tools
+django-filter==24.2
+django-cors-headers==4.7.0
+drf-yasg==1.21.7  # For Swagger docs
+
+# File Handling
+pillow==10.3.0
+python-multipart==0.0.9
+cloudinary==1.44.1
+
+# Async/Celery
+celery==5.5.3
+redis==6.2.0
+kombu==5.5.4
+billiard==4.2.1
+vine==5.1.0
+amqp==5.3.1
+
+# Networking
+requests==2.32.4
+urllib3==2.5.0
+certifi==2025.6.15
+idna==3.10
+
+# Utilities
+click==8.2.1
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2025.2
+packaging==25.0
+
+# Development Only (add to dev-requirements.txt)
+django-debug-toolbar==4.3.0
+pytest-django==4.8.0
+whitenoise==6.6.0

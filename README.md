@@ -79,7 +79,7 @@ See full instructions in the repo’s README for:
 PRs are welcome! Please open an issue to discuss major changes first.
 ## 💡 Backend
 # 1. Clone the repo
-git clone https://github.com/Xnelliek/*SmartShop.git
+git clone https://github.com/Xnelliek/Smartshop.git
 cd SmartShop/smartshop
 
 # 2. Create virtual environment

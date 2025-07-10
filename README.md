@@ -20,8 +20,6 @@ Built with a Django REST Framework backend and a React + Vite + Tailwind CSS fro
 
 ✅ **Chat & Notifications** — Enable real-time communication and system notifications.
 
-✅ **CBC Assessments** — Educational tools for shops offering learning services.
-
 ✅ **Media Hub** — Manage images and videos for products and promotions.
 
 ✅ **Analytics & Dashboards** — Visual reports for sales, revenue, bookings, and more.
@@ -52,9 +50,9 @@ Unlike generic ERP solutions, SmartShop focuses on modern retail and service bus
 - Physical retail stores
 - Salons and spas
 - Interior decor studios
-- And more…
 
-Our goal is to offer a smarter, faster, and locally adapted alternative to big systems like Odoo, with AI features and a beautiful user experience.
+
+Our goal is to offer a smarter, faster with AI features and a beautiful user experience.
 
 ---
 

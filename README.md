@@ -79,3 +79,35 @@ See full instructions in the repo’s README for:
 ## 💡 Contribution
 
 PRs are welcome! Please open an issue to discuss major changes first.
+## 💡 Backend
+# 1. Clone the repo
+git clone https://github.com/your-username/SmartShop.git
+cd SmartShop/smartshop
+
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run migrations
+python manage.py migrate
+
+# 5. Create superuser
+python manage.py createsuperuser
+
+# 6. Start the server
+python manage.py runserver
+
+##  Frontend
+# 1. Go to frontend folder
+cd ../frontend
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
+
+
